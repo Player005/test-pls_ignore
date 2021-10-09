@@ -1,0 +1,88 @@
+# This is a basic workflow that is manually triggered
+
+name: publish
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  workflow_dispatch:
+    # Inputs the workflow accepts.
+    inputs:
+      version:
+        # Friendly description to be shown in the UI instead of 'name'
+        description: 'Version to update'
+        # Default value if no value is explicitly provided
+        default: 'default-117'
+        # Input has to be provided for the workflow to run
+        required: true
+      exact_version:
+        description: 'Exact version number'
+        default: '1.17'
+        required: true
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "greet"
+  Publish:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    # Runs a single command using the runners shell
+    - name: delete old files
+      run: rm ${{ github.event.inputs.exact_version }}/${{ github.event.inputs.version }}.zip
+
+
+    - name: Zip files
+      # You may pin to the exact commit or the version.
+      # uses: vimtor/action-zip@5f1c4aa587ea41db1110df6a99981dbe19cee310
+      uses: vimtor/action-zip@v1
+      with:
+        # Files or directories to zip
+        files: '${{ github.event.inputs.exact_version }}/${{ github.event.inputs.version }}/'
+        # Name of output zip file
+        dest: '${{ github.event.inputs.exact_version }}/${{ github.event.inputs.version }}.zip'
+        # Whether to add subdirectories to simply zip all files to the root
+        recursive: true
+    - name: Release
+      uses: softprops/action-gh-release@v1
+#      if: startsWith(github.ref, 'refs/tags/')
+      with:
+        files: ${{ github.event.inputs.exact_version }}/${{ github.event.inputs.version }}.zip
+        
+#    - name: upload linux artifact
+#      uses: actions/upload-release-asset@v1
+#      env:
+#        GITHUB_TOKEN: ${{ github.token }}
+#      with:
+#        upload_url: Release
+#        asset_path: ./${{github.event.inputs.exact_version}}/${{ github.event.inputs.version }}.zip
+#        asset_name: ${{ github.event.inputs.version }}.zip
+#        asset_content_type: application/gzip
+        
+ #   - name: GitHub Upload Release Artifacts
+#      # You may pin to the exact commit or the version.
+ #     # uses: Roang-zero1/github-upload-release-artifacts-action@f0677c0645db8d52dddaee4e83ce2c150f95e8e1
+#      uses: Roang-zero1/github-upload-release-artifacts-action@v2.1.0
+ #     with:
+#        # Allows to pass an already created tag, forces update_existing to true.
+ #       created_tag: Release
+#    - name: release
+#      uses: actions/create-release@v1
+#      id: create_release
+#      with:
+#        draft: false
+#        prerelease: false
+#        release_name: Release ${{ steps.version.outputs.version }}
+#        tag_name: ${{ github.ref }}
+#        body_path: CHANGELOG.md
+#      env:
+#        GITHUB_TOKEN: ${{ github.token }}
+
+  
+   # - name: Zipping files
+   #   run: zip -r ${{github.event.inputs.exact_version}}/${{ github.event.inputs.version }}.zip ${{github.event.inputs.exact_version}}/${{ github.event.inputs.version }}/
+
