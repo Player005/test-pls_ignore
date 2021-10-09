@@ -37,6 +37,10 @@ jobs:
           
       - uses: ncipollo/release-action@v1
         with:
+          tag: 'Release'
+          removeArtifacts: true
+          name: 'Release'
+          allowUpdates: true
           artifacts: ${{ github.event.inputs.exact_version }}/${{ github.event.inputs.version }}.zip
           bodyFile: 'changelog.md'
           token: ${{ secrets.GITHUB_TOKEN }}
