@@ -10,6 +10,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
+      - name: Delete old zip files 
+        run: 'rm 1.16.5/default-1.16.5.zip & rm 1.17.1/default-1.17.1.zip'
 
       - name: Compress 1.16.5 files
         # You may pin to the exact commit or the version.
@@ -44,6 +46,3 @@ jobs:
           artifacts: 1.16.5/default-1.16.5.zip, 1.17.1/default-1.17.1.zip
           bodyFile: 'changelog.md'
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Delete zip files
-        run: 'rm 1.16.5/default-1.16.5.zip & rm 1.17.1/default-1.17.1.zip'
