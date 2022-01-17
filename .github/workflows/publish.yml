@@ -36,6 +36,19 @@ jobs:
           dest: '1.17.1/default-1.17.1.zip'
           # Whether to add subdirectories to simply zip all files to the root
           recursive: true
+          
+  
+      - name: Compress 1.18.1 files
+        # You may pin to the exact commit or the version.
+        # uses: vimtor/action-zip@5f1c4aa587ea41db1110df6a99981dbe19cee310
+        uses: vimtor/action-zip@v1
+        with:
+          # Files or directories to zip
+          files: '1.18.1/default-1.18.1'
+          # Name of output zip file
+          dest: '1.18.1/default-1.18.1.zip'
+          # Whether to add subdirectories to simply zip all files to the root
+          recursive: true
 
       - name: Release
         uses: ncipollo/release-action@v1
@@ -43,6 +56,6 @@ jobs:
           tag: 'Release'
           name: 'Release'
           allowUpdates: true
-          artifacts: 1.16.5/default-1.16.5.zip, 1.17.1/default-1.17.1.zip
+          artifacts: 1.16.5/default-1.16.5.zip, 1.17.1/default-1.17.1.zip, 1.18.1/default-1.18.1.zip
           bodyFile: 'changelog.md'
           token: ${{ secrets.GITHUB_TOKEN }}
