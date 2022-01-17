@@ -1,0 +1,47 @@
+<component name="libraryTable">
+  <library name="mods1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/cem-0.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/betterbeds-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/mcpppp-0.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/lazydfu-0.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/Mc122477Fix-fabric-1.1.0+mc1.17.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/continuity-1.0.2+1.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/SmoothScrollingEverywhere-3.0.3-unstable.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/fabric-api-0.41.0+1.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/anycapes-1.0.3+1.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/fabricmod_VoxelMap-1.10.15_for_1.17.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/fabricskyboxes-1.17-0.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/sodium-extra-mc1.17.1-0.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/audiooutput-0.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/dynamic-fps-2.0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/shut_badlion-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/CITResewn-0.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/cullleaves-2.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/DCCH-2.0+1.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/slight-gui-modifications-2.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/architectury-2.6.35.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/colormatic-2.3.0+mc.1.17.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/cmdkeybind-1.5.2-1.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/swordblocking-1.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/sodium-fabric-mc1.17.1-0.3.2+IRIS2-rev.ba4ff9b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/starlight-1.0.0-RC3+fabric.1.17.x.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/amecs-1.3.4+mc.1.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/iris-and-sodium-mc1.17-1.1.2+build.9(1).jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/cloth-api-2.0.54.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/ferritecore-3.0.1-fabric.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/VanillaFix-2.0.0+beta-08-11-2021.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/EntityCulling-Fabric-1.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/lambdynamiclights-2.0.2+1.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/inspecio-1.1.0+1.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/fabrishot-1.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/indium-1.0.0+mc1.17.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/modmenu-2.0.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/cloth-config-5.0.38-fabric.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/item-model-fix-1.0.2+1.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.17.1/default-1.17.1/mods/logical_zoom-0.0.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

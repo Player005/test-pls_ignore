@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="mods">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/replaymod-1.16.4-2.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/fabricmod_VoxelMap-1.10.15_for_1.16.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/indium-1.0.0+mc1.16.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/ctm-fabric-0.5.1+1.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/sodium-fabric-mc1.16.5-0.2.0+build.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/starlight-fabric-1.0.0-RC2-1.16.x.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/iris-mc1.16.5-1.1.2+null.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/nmuk-1.0.0+mc1.16.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/fabric-api-0.40.6+1.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/smoothboot-fabric-1.16.5-1.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/lazydfu-0.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/lithium-fabric-mc1.16.5-0.6.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/Mc122477Fix-fabric-1.1.0mc1.15-1.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/1.16.5/default-1.16.5/mods/logical_zoom-0.0.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
